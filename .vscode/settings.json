@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "black-formatter.args": [
+        "--line-length",
+        "79"
+    ],
+    "flake8.args": [
+        "--ignore=E1, W1, E2, W2, E3, W3, E4, W4, E5, W5, E731"
+    ]
+}
